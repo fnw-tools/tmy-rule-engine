@@ -3,7 +3,7 @@
   "author": "",
   "desc": "",
   "keywords": "",
-  "ver": "",
+  "ver": "0.1",
   "quoto": "easy-book",
   "files": [
     "0. \u76ee\u5f55",
@@ -23,5 +23,5 @@
     "7.2 \u81ea\u5b9a\u4e49\u804a\u5929\u5ba4",
     "7.3 prompt \u8c03\u8bd5"
   ],
-  "checksum": "446a6bf3f605651869e0ac42eed67267759d661c26534090036bf0c8d0b33f5e"
+  "checksum": "cb308ae26065d65303b36c8a6622a92a8690f8d273439d06ffbae472d7ad17f5"
 }
