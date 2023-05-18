@@ -17,13 +17,19 @@
     "6.1 \u89c4\u5219\u5f15\u64ce\u89e3\u91ca\u5668\u89c4\u683c",
     "6.2 \u5168\u5c40\u53d8\u91cf",
     "6.3 \u5c40\u90e8\u53d8\u91cf",
-    "6.4 \u8868\u8fbe\u5f0f\u8ba1\u7b97",
+    "6.4 \u8868\u8fbe\u5f0f\u4e0e\u8ba1\u7b97",
     "6.5 \u94fe\u5f0f\u6267\u884c",
     "7. \u89c4\u5219\u5f15\u64ce\u63d2\u4ef6",
+    "7.1 ADJUST",
+    "7.2 URL_FETCH",
+    "7.3 BEAUTIFUL_SOUP",
+    "7.4 JSON",
+    "7.5 GOOGLE_TOP_SEARCH",
+    "7.6 GOOGLE_INSTANT",
     "8. \u8c03\u8bd5\u4e0e\u5e03\u7f72",
     "8.1 \u589e\u5220\u5df2\u5b9a\u4e49\u7684\u804a\u5929\u5ba4",
     "8.2 \u81ea\u5b9a\u4e49\u804a\u5929\u5ba4",
     "8.3 prompt \u8c03\u8bd5"
   ],
-  "checksum": "e89e6eb48f3f9339115e9c70d756901958fcb2be4d049d910befe0d05d837292"
+  "checksum": "0f45de1d8fd260632edce743d64c595e288430f7fbcef2a2fc5f3ea389d814e2"
 }
