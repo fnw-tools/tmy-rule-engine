@@ -126,7 +126,8 @@ function getMdFileList(retry_num, callback) {
 
 function jumpToPage(off) {
   if (off == 0) {  // go home
-    if (MD_TAGS.length) location.hash = '#' + MD_TAGS[0];
+    if (MD_TAGS.length)
+      location.hash = '#' + MD_TAGS[0];
   }
   else {
     if (!_last_md_tag) return;
@@ -144,8 +145,11 @@ window.addEventListener('load', function() {
   let viewerNode = document.querySelector('#viewer-root');
   
   function generateNavlist(cfg) {
+    let scrollNode = document.querySelector('#md-nav-root');
+    let oldTop = scrollNode.scrollTop;
+    
     let md_files = cfg.files || [];
-    let node = $('#filelist-tab');
+    let node = $(mdNavNode);
     let s = '';
     
     md_files.forEach( (item, idx) => {
@@ -154,7 +158,11 @@ window.addEventListener('load', function() {
       s += '<a class="list-group-item list-group-item-action text-truncate" data-tag="' + currTag + '" role="tab">' + currFile + '</a>';
     });
     node.html(s);
+    
+    scrollNode.scrollTop = oldTop;
   }
+  
+  let firstFocusActive = true;
   
   function onHashChange(ev) {  // ev.oldURL ev.newURL
     let newTag = location.hash.slice(1);
@@ -188,8 +196,10 @@ window.addEventListener('load', function() {
           actived.classList.remove('active');
         }
         currNav.classList.add('active');
-        if (mdNavShowing)
+        if (mdNavShowing && firstFocusActive) {
+          firstFocusActive = false;
           currNav.scrollIntoView(false);
+        }
       }
     });
   }
