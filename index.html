@@ -187,6 +187,8 @@ window.addEventListener('load', function() {
       viewerNode.scrollTop = 0;
       _last_md_tag = newTag;
       
+      viewer.trigger('md_loaded');
+      
       let mdNodes = mdNavNode.querySelectorAll('a.list-group-item');
       let currNav = mdNodes[idx];
       if (currNav) {
