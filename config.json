@@ -20,17 +20,18 @@
     "6.4 \u8868\u8fbe\u5f0f\u4e0e\u8ba1\u7b97",
     "6.5 \u94fe\u5f0f\u6267\u884c",
     "7. \u89c4\u5219\u5f15\u64ce\u63d2\u4ef6",
-    "7.1 ADJUST",
-    "7.2 URL_FETCH",
-    "7.3 BEAUTIFUL_SOUP",
-    "7.4 JSON",
-    "7.5 GOOGLE_TOP_SEARCH",
-    "7.6 GOOGLE_INSTANT",
+    "7.1 \u901a\u7528\u89c4\u683c",
+    "7.2 ADJUST",
+    "7.3 URL_FETCH",
+    "7.4 BEAUTIFUL_SOUP",
+    "7.5 JSON",
+    "7.6 GOOGLE_TOP_SEARCH",
+    "7.7 GOOGLE_INSTANT",
     "8. \u8c03\u8bd5\u4e0e\u5e03\u7f72",
     "8.1 \u589e\u5220\u5df2\u5b9a\u4e49\u7684\u804a\u5929\u5ba4",
     "8.2 \u81ea\u5b9a\u4e49\u804a\u5929\u5ba4",
     "8.3 prompt \u8c03\u8bd5",
     "8.4 \u5f00\u53d1\u804a\u5929\u5ba4\u6ce8\u610f\u4e8b\u9879"
   ],
-  "checksum": "e80e6d11e500496d091b7531a0bf80cd7717e5ccb356fb23686545f2cea4551a"
+  "checksum": "6593a3c7ed44c5da138a7c6178cfe70301b670f2f9881ad9f7d11d3cc25f4470"
 }
