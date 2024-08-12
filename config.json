@@ -5,7 +5,7 @@
   "keywords": "",
   "ver": "0.2",
   "quoto": "easy-book",
-  "show_quoto": 1,
+  "show_quoto": 0,
   "files": [
     "0. \u76ee\u5f55",
     "1. TMY \u89c4\u5219\u5f15\u64ce\u4ecb\u7ecd",
@@ -33,5 +33,5 @@
     "8.3 prompt \u8c03\u8bd5",
     "8.4 \u5f00\u53d1\u804a\u5929\u5ba4\u6ce8\u610f\u4e8b\u9879"
   ],
-  "checksum": "6593a3c7ed44c5da138a7c6178cfe70301b670f2f9881ad9f7d11d3cc25f4470"
+  "checksum": "7df68825e3bcad4b841d62c5b65a6da36409719e1e7d5aba74fb8fdd427628c8"
 }
